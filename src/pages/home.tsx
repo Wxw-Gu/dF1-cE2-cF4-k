@@ -18,11 +18,13 @@ export const Home: React.FC = () => {
           onChange={e => setGravatarName(e.target.value)}
           placeholder='Search for avatars'
         />
+        {/* @unocss-skip-start */}
         <Button
           onClick={() => setGravatarUrl(`https://www.gravatar.com/avatar/${md5(gravatarName)}`)}
         >
           Search for avatars
         </Button>
+        {/* @unocss-skip-end */}
         <img src={gravatarUrl} alt="" />
       </div>
       <div flex mt-5>

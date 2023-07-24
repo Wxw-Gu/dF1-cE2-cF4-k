@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "target": "ES6",
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ],
+            "assets/*": [
+                "src/assets/*"
+            ],
+            "pages/*": [
+                "src/pages/*"
+            ],
+            "components/*": [
+                "src/components/*"
+            ],
+            "service/*": [
+                "src/service/*"
+            ],
+            "store/*": [
+                "src/store/*"
+            ],
+            "utils/*": [
+                "src/utils/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
